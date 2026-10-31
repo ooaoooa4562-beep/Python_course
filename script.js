@@ -9,7 +9,7 @@ courses_eyebrow:"НАПРАВЛЕНИЯ",courses_title:'Выбери свой <s
 about_eyebrow:"НАШ ПОДХОД",about_title:'Не просто изучай.<br><span class="gradient-text">Создавай.</span>',about_text:"Технологии становятся понятнее, когда ты применяешь знания на практике. Курсы помогут познакомиться с инструментами разработки и сделать первые собственные проекты.",feature1_title:"Подходит начинающим",feature1_text:"Можно начать без опыта программирования.",feature2_title:"Фокус на практике",feature2_text:"Знакомство с инструментами через реальные задачи.",feature3_title:"Современные навыки",feature3_text:"Python, AI-инструменты и цифровое творчество.",about_cta:'Узнать условия обучения <span>↗</span>',
 steps_eyebrow:"КАК НАЧАТЬ",steps_title:'Твой путь начинается <span class="gradient-text">здесь</span>',steps_intro:"Всего несколько шагов отделяют тебя от знакомства с программированием.",step1_title:"Оставь заявку",step1_text:"Расскажи, какое направление тебя интересует.",step2_title:"Узнай детали",step2_text:"Получи информацию о программе и формате обучения.",step3_title:"Начни обучение",step3_text:"Занимайся в отдельном приложении и развивай навыки.",
 faq_eyebrow:"FAQ",faq_title:'Есть <span class="gradient-text">вопросы?</span>',faq_lead:"Собрали ответы на то, что важно знать перед записью.",faq_q1:"Нужен ли опыт программирования?<span>+</span>",faq_a1:"Нет. Направления рассчитаны в том числе на тех, кто только начинает знакомство с программированием.",faq_q2:"Где проходят занятия?<span>+</span>",faq_a2:"Обучение проходит онлайн через отдельное приложение. Подробности сообщаются после обращения.",faq_q3:"Можно ли выбрать оба курса?<span>+</span>",faq_a3:"Да, оставь заявку и уточни, что тебя интересуют оба направления.",faq_q4:"Сколько стоит обучение?<span>+</span>",faq_a4:"Актуальную стоимость и условия можно узнать, связавшись с организаторами.",
-contact_eyebrow:"СДЕЛАЙ ПЕРВЫЙ ШАГ",contact_title:'Твоя следующая<br><span class="gradient-text">глава — в коде.</span>',contact_text:"Оставь заявку, чтобы узнать подробности о курсах Python и Vibe Coding.",form_name_label:"Твоё имя",form_name_placeholder:"Например, Алекс",form_course_label:"Интересующее направление",form_both:"Оба курса",form_contact_label:"Твой Telegram или контакт",form_contact_placeholder:"@username",form_submit:"Отправить заявку",form_note:"Нажимая кнопку, ты подготовишь сообщение для отправки организатору в Telegram.",form_missing:"Заполни, пожалуйста, все поля.",form_demo:"Укажи Telegram организатора в файле script.js, чтобы включить отправку заявок.",footer_tagline:"Учись. Создавай. Развивайся.",back_top:"Наверх ↑",lab_output:"Привет, мир!",lab_eyebrow:"ЖИВОЙ ПРИМЕР",lab_title:'От идеи — к <span class="gradient-text">работающему коду.</span>',lab_text:"Посмотри, как несколько строк Python превращаются в результат.",lab_result_label:"Результат программы",lab_running:"ВЫПОЛНЯЕТСЯ",lab_success:"Выполнено успешно",counter_paths:"направления",counter_languages:"языка интерфейса",counter_goal:"цель — создавать",floating_apply:"Записаться",loader_text:"Загружаем творческую среду…",footer_note:"Образовательный проект"
+contact_eyebrow:"СДЕЛАЙ ПЕРВЫЙ ШАГ",contact_title:'Твоя следующая<br><span class="gradient-text">глава — в коде.</span>',contact_text:"Оставь заявку, чтобы узнать подробности о курсах Python и Vibe Coding.",form_name_label:"Твоё имя",form_name_placeholder:"Например, Алекс",form_course_label:"Интересующее направление",form_both:"Оба курса",form_contact_label:"Твой Telegram или контакт",form_contact_placeholder:"@username",form_submit:"Отправить заявку",form_note:"Нажимая кнопку, ты подготовишь сообщение для отправки организатору в Telegram.",form_missing:"Заполни, пожалуйста, все поля.",form_demo:"Укажи Telegram организатора в файле script.js, чтобы включить отправку заявок.",footer_tagline:"Учись. Создавай. Развивайся.",back_top:"Наверх ↑",lab_output:"Привет, мир!",lab_eyebrow:"ЖИВОЙ ПРИМЕР",lab_title:'От идеи — к <span class="gradient-text">работающему коду.</span>',lab_text:"Посмотри, как несколько строк Python превращаются в результат.",lab_result_label:"Результат программы",lab_copy:"Копировать код",lab_run:"Запустить пример ↻",lab_copied:"Код скопирован",lab_copy_error:"Не удалось скопировать код",form_success:"Telegram откроется в новой вкладке. Проверь и отправь подготовленное сообщение.",lab_running:"ВЫПОЛНЯЕТСЯ",lab_success:"Выполнено успешно",counter_paths:"направления",counter_languages:"языка интерфейса",counter_goal:"цель — создавать",floating_apply:"Записаться",loader_text:"Загружаем творческую среду…",footer_note:"Образовательный проект"
 },
 en: {
 nav_home:"Home",nav_courses:"Courses",nav_about:"About",nav_faq:"FAQ",nav_cta:"Apply",
@@ -18,7 +18,7 @@ courses_eyebrow:"LEARNING PATHS",courses_title:'Choose your <span class="gradien
 about_eyebrow:"OUR APPROACH",about_title:'Don’t just learn.<br><span class="gradient-text">Create.</span>',about_text:"Technology makes more sense when you put knowledge into practice. These courses introduce development tools and help you create your first projects.",feature1_title:"Beginner-friendly",feature1_text:"You can start with no coding experience.",feature2_title:"Practice-focused",feature2_text:"Explore tools through practical tasks.",feature3_title:"Modern skills",feature3_text:"Python, AI tools and digital creativity.",about_cta:'Ask about the courses <span>↗</span>',
 steps_eyebrow:"HOW TO START",steps_title:'Your journey starts <span class="gradient-text">here</span>',steps_intro:"Just a few steps to begin exploring programming.",step1_title:"Send an enquiry",step1_text:"Tell us which learning path interests you.",step2_title:"Get the details",step2_text:"Receive information about the programme and format.",step3_title:"Start learning",step3_text:"Study in a separate app and grow your skills.",
 faq_eyebrow:"FAQ",faq_title:'Got <span class="gradient-text">questions?</span>',faq_lead:"Here are a few things to know before you apply.",faq_q1:"Do I need coding experience?<span>+</span>",faq_a1:"No. These paths are suitable for people who are just starting to explore programming.",faq_q2:"Where do classes take place?<span>+</span>",faq_a2:"Learning takes place online through a separate app. Details are shared after you contact the organisers.",faq_q3:"Can I choose both courses?<span>+</span>",faq_a3:"Yes. Send an enquiry and let us know you are interested in both paths.",faq_q4:"How much does it cost?<span>+</span>",faq_a4:"Contact the organisers for current prices and study conditions.",
-contact_eyebrow:"TAKE THE FIRST STEP",contact_title:'Your next chapter<br><span class="gradient-text">is in code.</span>',contact_text:"Send an enquiry to learn more about the Python and Vibe Coding courses.",form_name_label:"Your name",form_name_placeholder:"For example, Alex",form_course_label:"Course of interest",form_both:"Both courses",form_contact_label:"Your Telegram or contact",form_contact_placeholder:"@username",form_submit:"Send an enquiry",form_note:"The button prepares a message for the course organiser in Telegram.",form_missing:"Please complete all fields.",form_demo:"Add the organiser's Telegram username in script.js to enable enquiries.",footer_tagline:"Learn. Create. Grow.",back_top:"Back to top ↑",lab_output:"Hello, world!",lab_eyebrow:"LIVE CODE LAB",lab_title:'Turn an idea into <span class="gradient-text">working code.</span>',lab_text:"See how a few lines of Python become a result.",lab_result_label:"Program output",lab_running:"RUNNING",lab_success:"Executed successfully",counter_paths:"learning paths",counter_languages:"interface languages",counter_goal:"goal: create",floating_apply:"Apply",loader_text:"Preparing your creative space…",footer_note:"Educational project"
+contact_eyebrow:"TAKE THE FIRST STEP",contact_title:'Your next chapter<br><span class="gradient-text">is in code.</span>',contact_text:"Send an enquiry to learn more about the Python and Vibe Coding courses.",form_name_label:"Your name",form_name_placeholder:"For example, Alex",form_course_label:"Course of interest",form_both:"Both courses",form_contact_label:"Your Telegram or contact",form_contact_placeholder:"@username",form_submit:"Send an enquiry",form_note:"The button prepares a message for the course organiser in Telegram.",form_missing:"Please complete all fields.",form_demo:"Add the organiser's Telegram username in script.js to enable enquiries.",footer_tagline:"Learn. Create. Grow.",back_top:"Back to top ↑",lab_output:"Hello, world!",lab_eyebrow:"LIVE CODE LAB",lab_title:'Turn an idea into <span class="gradient-text">working code.</span>',lab_text:"See how a few lines of Python become a result.",lab_result_label:"Program output",lab_copy:"Copy code",lab_run:"Run example ↻",lab_copied:"Code copied",lab_copy_error:"Could not copy code",form_success:"Telegram will open in a new tab. Review and send the prepared message.",lab_running:"RUNNING",lab_success:"Executed successfully",counter_paths:"learning paths",counter_languages:"interface languages",counter_goal:"goal: create",floating_apply:"Apply",loader_text:"Preparing your creative space…",footer_note:"Educational project"
 },
 uz: {
 nav_home:"Bosh sahifa",nav_courses:"Kurslar",nav_about:"Biz haqimizda",nav_faq:"Savollar",nav_cta:"Yozilish",
@@ -27,7 +27,7 @@ courses_eyebrow:"YO‘NALISHLAR",courses_title:'O‘z <span class="gradient-text
 about_eyebrow:"BIZNING YONDASHUV",about_title:'Faqat o‘rganma.<br><span class="gradient-text">Yarat.</span>',about_text:"Bilimlarni amalda qo‘llaganingda texnologiyalar yanada tushunarli bo‘ladi. Kurslar dasturlash vositalari bilan tanishishga va ilk loyihalaringni yaratishga yordam beradi.",feature1_title:"Yangi boshlovchilar uchun",feature1_text:"Dasturlash tajribasisiz ham boshlash mumkin.",feature2_title:"Amaliyotga e’tibor",feature2_text:"Vositalarni amaliy vazifalar orqali o‘rganish.",feature3_title:"Zamonaviy ko‘nikmalar",feature3_text:"Python, AI vositalari va raqamli ijod.",about_cta:'Ta’lim shartlarini bilish <span>↗</span>',
 steps_eyebrow:"QANDAY BOSHLASH",steps_title:'Sening yo‘ling <span class="gradient-text">shu yerdan</span> boshlanadi',steps_intro:"Dasturlash bilan tanishish uchun bir necha oddiy qadam.",step1_title:"Ariza qoldir",step1_text:"Qaysi yo‘nalish qiziqtirishini yoz.",step2_title:"Batafsil ma’lumot ol",step2_text:"Dastur va ta’lim formati haqida bilib ol.",step3_title:"O‘qishni boshla",step3_text:"Alohida ilovada o‘qib, ko‘nikmalaringni rivojlantir.",
 faq_eyebrow:"FAQ",faq_title:'Savollaring <span class="gradient-text">bormi?</span>',faq_lead:"Yozilishdan oldin bilish kerak bo‘lgan savollarga javoblar.",faq_q1:"Dasturlash tajribasi kerakmi?<span>+</span>",faq_a1:"Yo‘q. Yo‘nalishlar dasturlashni endi o‘rganayotganlar uchun ham mos.",faq_q2:"Darslar qayerda bo‘ladi?<span>+</span>",faq_a2:"Ta’lim alohida ilova orqali onlayn o‘tkaziladi. Batafsil ma’lumot murojaatdan so‘ng beriladi.",faq_q3:"Ikkala kursni ham tanlash mumkinmi?<span>+</span>",faq_a3:"Ha. Ariza qoldirib, ikkala yo‘nalish ham qiziqtirishini yoz.",faq_q4:"Kurs narxi qancha?<span>+</span>",faq_a4:"Amaldagi narx va shartlarni tashkilotchilar bilan bog‘lanib bilib olishing mumkin.",
-contact_eyebrow:"BIRINCHI QADAMNI TASHLA",contact_title:'Keyingi sahifang<br><span class="gradient-text">kodda yoziladi.</span>',contact_text:"Python va Vibe Coding kurslari haqida batafsil ma’lumot olish uchun ariza qoldir.",form_name_label:"Isming",form_name_placeholder:"Masalan, Alex",form_course_label:"Qiziqtirgan yo‘nalish",form_both:"Ikkala kurs",form_contact_label:"Telegram yoki kontakting",form_contact_placeholder:"@username",form_submit:"Ariza yuborish",form_note:"Tugma tashkilotchiga Telegram orqali yuborish uchun xabar tayyorlaydi.",form_missing:"Iltimos, barcha maydonlarni to‘ldir.",form_demo:"Arizalarni yuborishni yoqish uchun script.js faylida tashkilotchining Telegram username'ini kiriting.",footer_tagline:"O‘rgan. Yarat. Rivojlan.",back_top:"Yuqoriga ↑",lab_output:"Salom, dunyo!",lab_eyebrow:"JONLI KOD NAMUNASI",lab_title:'G‘oyadan <span class="gradient-text">ishlaydigan kodgacha.</span>',lab_text:"Bir nechta Python qatori qanday natija berishini ko‘r.",lab_result_label:"Dastur natijasi",lab_running:"ISHLAMOQDA",lab_success:"Muvaffaqiyatli bajarildi",counter_paths:"yo‘nalish",counter_languages:"interfeys tili",counter_goal:"maqsad — yaratish",floating_apply:"Yozilish",loader_text:"Ijodiy muhit yuklanmoqda…",footer_note:"Ta’lim loyihasi"
+contact_eyebrow:"BIRINCHI QADAMNI TASHLA",contact_title:'Keyingi sahifang<br><span class="gradient-text">kodda yoziladi.</span>',contact_text:"Python va Vibe Coding kurslari haqida batafsil ma’lumot olish uchun ariza qoldir.",form_name_label:"Isming",form_name_placeholder:"Masalan, Alex",form_course_label:"Qiziqtirgan yo‘nalish",form_both:"Ikkala kurs",form_contact_label:"Telegram yoki kontakting",form_contact_placeholder:"@username",form_submit:"Ariza yuborish",form_note:"Tugma tashkilotchiga Telegram orqali yuborish uchun xabar tayyorlaydi.",form_missing:"Iltimos, barcha maydonlarni to‘ldir.",form_demo:"Arizalarni yuborishni yoqish uchun script.js faylida tashkilotchining Telegram username'ini kiriting.",footer_tagline:"O‘rgan. Yarat. Rivojlan.",back_top:"Yuqoriga ↑",lab_output:"Salom, dunyo!",lab_eyebrow:"JONLI KOD NAMUNASI",lab_title:'G‘oyadan <span class="gradient-text">ishlaydigan kodgacha.</span>',lab_text:"Bir nechta Python qatori qanday natija berishini ko‘r.",lab_result_label:"Dastur natijasi",lab_copy:"Kodni nusxalash",lab_run:"Misolni ishga tushirish ↻",lab_copied:"Kod nusxalandi",lab_copy_error:"Kodni nusxalab bo‘lmadi",form_success:"Telegram yangi oynada ochiladi. Tayyor xabarni tekshirib, yuboring.",lab_running:"ISHLAMOQDA",lab_success:"Muvaffaqiyatli bajarildi",counter_paths:"yo‘nalish",counter_languages:"interfeys tili",counter_goal:"maqsad — yaratish",floating_apply:"Yozilish",loader_text:"Ijodiy muhit yuklanmoqda…",footer_note:"Ta’lim loyihasi"
 }
 };
 
@@ -46,9 +46,29 @@ function setLanguage(lang) {
 }
 const languageSelect = document.getElementById("languageSelect");
 let savedLanguage = "ru"; try { savedLanguage = localStorage.getItem("pva-language") || "ru"; } catch (_) {}
+if (!translations[savedLanguage]) savedLanguage = "ru";
 languageSelect.value = savedLanguage;
 setLanguage(savedLanguage);
 languageSelect.addEventListener("change", e => setLanguage(e.target.value));
+
+// Persistent motion control for visitors who prefer a calmer interface.
+const motionToggle = document.getElementById("motionToggle");
+let motionOff = false;
+try { motionOff = localStorage.getItem("pva-motion") === "off"; } catch (_) {}
+function applyMotionPreference() {
+  document.body.classList.toggle("motion-off", motionOff);
+  if (motionToggle) {
+    motionToggle.setAttribute("aria-pressed", String(motionOff));
+    motionToggle.textContent = motionOff ? "▶" : "◌";
+    motionToggle.title = motionOff ? "Включить анимацию" : "Отключить анимацию";
+  }
+}
+applyMotionPreference();
+if (motionToggle) motionToggle.addEventListener("click", () => {
+  motionOff = !motionOff;
+  try { localStorage.setItem("pva-motion", motionOff ? "off" : "on"); } catch (_) {}
+  applyMotionPreference();
+});
 
 const menuToggle = document.getElementById("menuToggle");
 const mainNav = document.getElementById("mainNav");
@@ -80,7 +100,7 @@ document.getElementById("leadForm").addEventListener("submit", event => {
   const message = `Здравствуйте! Хочу узнать о курсе.\nИмя: ${name}\nНаправление: ${course}\nМой контакт: ${contact}`;
   const url = `https://t.me/${TELEGRAM_USERNAME}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank", "noopener,noreferrer");
-  status.textContent = "Telegram откроется в новой вкладке. Отправь подготовленное сообщение.";
+  status.textContent = dict.form_success || "Telegram откроется в новой вкладке. Проверь и отправь подготовленное сообщение.";
 });
 document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -94,6 +114,44 @@ const cursorGlow=document.getElementById('cursorGlow');window.addEventListener('
 
 
 // Feature pack: loader, animated code demo, counters, accordion, 3D tilt and quick navigation.
+const runCodeButton = document.getElementById("runCode");
+const copyCodeButton = document.getElementById("copyCode");
+const labOutputForActions = document.getElementById("labOutput");
+const getLabDictionary = () => translations[languageSelect.value] || translations.ru;
+if (runCodeButton && labOutputForActions) {
+  runCodeButton.addEventListener("click", () => {
+    const dict = getLabDictionary();
+    const outputText = dict.lab_output || "Hello, world!";
+    labOutputForActions.textContent = outputText;
+    labOutputForActions.classList.remove("lab-output-flash");
+    void labOutputForActions.offsetWidth;
+    labOutputForActions.classList.add("lab-output-flash");
+  });
+}
+if (copyCodeButton) {
+  copyCodeButton.addEventListener("click", async () => {
+    const source = 'message = "Привет, мир!"\n\nprint(message)';
+    const dict = getLabDictionary();
+    try {
+      if (!navigator.clipboard || !window.isSecureContext) throw new Error("Clipboard API unavailable");
+      await navigator.clipboard.writeText(source);
+      copyCodeButton.textContent = dict.lab_copied || "Code copied";
+    } catch (_) {
+      const field = document.createElement("textarea");
+      field.value = source;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.opacity = "0";
+      document.body.appendChild(field);
+      field.select();
+      let copied = false;
+      try { copied = document.execCommand("copy"); } catch (_) {}
+      field.remove();
+      copyCodeButton.textContent = copied ? (dict.lab_copied || "Code copied") : (dict.lab_copy_error || "Could not copy code");
+    }
+    setTimeout(() => { copyCodeButton.textContent = getLabDictionary().lab_copy || "Copy code"; }, 1800);
+  });
+}
 (() => {
   const loader = document.getElementById('pageLoader');
   const hideLoader = () => { if (loader) { loader.classList.add('loader-hidden'); setTimeout(() => loader.remove(), 650); } };
