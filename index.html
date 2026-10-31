@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080914">
+  <meta name="description" content="Python & Vibe Coding Academy — практические курсы программирования и создания проектов с AI.">
+  <title>Python & Vibe Coding Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><canvas id="particles" class="particle-canvas" aria-hidden="true"></canvas><div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Python and Vibe home"><span class="brand-mark">&lt;/&gt;</span><span>PYTHON<span class="brand-plus">&</span>VIBE</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav" id="mainNav">
+        <a href="#home" data-i18n="nav_home">Главная</a>
+        <a href="#courses" data-i18n="nav_courses">Курсы</a>
+        <a href="#about" data-i18n="nav_about">О нас</a>
+        <a href="#faq" data-i18n="nav_faq">Вопросы</a>
+      </nav>
+      <div class="nav-right">
+        <select id="languageSelect" class="language-select" aria-label="Language">
+          <option value="ru">RU</option><option value="en">EN</option><option value="uz">UZ</option>
+        </select>
+        <a class="button button-small button-outline" href="#contact" data-i18n="nav_cta">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span><span data-i18n="hero_tag">ТВОЯ ИДЕЯ. ТВОЙ КОД. ТВОЁ БУДУЩЕЕ.</span></div>
+          <h1 data-i18n="hero_title">Создавай будущее<br>с <span class="gradient-text">Python & AI</span></h1>
+          <p class="hero-description" data-i18n="hero_text">Освой программирование с нуля и научись превращать идеи в реальные цифровые проекты. Выбери направление и начни свой путь.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#courses" data-i18n="hero_button">Выбрать курс <span>↗</span></a>
+            <a class="text-link" href="#about"><span class="play-icon">▶</span><span data-i18n="hero_link">Узнать о программе</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-icon">✦</div>
+            <div><strong data-i18n="proof_title">От первой идеи до своего проекта</strong><small data-i18n="proof_text">Понятный маршрут для начинающих</small></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative programming illustration">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="code-window">
+            <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>your_future.py</span><span class="window-status">● LIVE</span></div>
+            <div class="code-content">
+              <div><span class="line-no">01</span><span class="code-purple">idea</span> <span class="code-white">=</span> <span class="code-green">"something_big"</span></div>
+              <div><span class="line-no">02</span><span class="code-purple">skills</span> <span class="code-white">=</span> <span class="code-yellow">["Python", "AI"]</span></div>
+              <div class="code-gap"></div>
+              <div><span class="line-no">04</span><span class="code-blue">def</span> <span class="code-cyan">build_future</span><span class="code-white">():</span></div>
+              <div><span class="line-no">05</span>&nbsp;&nbsp;<span class="code-blue">return</span> <span class="code-green">"Let's create!"</span></div>
+              <div class="code-gap"></div>
+              <div><span class="line-no">07</span><span class="code-cyan">build_future</span><span class="code-white">()</span><span class="cursor"></span></div>
+            </div>
+            <div class="terminal"><span>➜</span> <b data-i18n="terminal_text">Идея готова к запуску...</b><span class="terminal-ok">✓</span></div>
+          </div>
+          <div class="float-card float-python"><span class="float-symbol">Py</span><span><b>Python</b><small data-i18n="float_python">Логика и код</small></span></div>
+          <div class="float-card float-ai"><span class="float-symbol ai-symbol">✳</span><span><b>Vibe Coding</b><small data-i18n="float_ai">Идеи + AI</small></span></div>
+          <div class="visual-caption"><span class="caption-line"></span><span data-i18n="visual_caption">LEARN · BUILD · CREATE</span></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span data-i18n="hero_bottom">ДВА НАПРАВЛЕНИЯ — ОДНА ЦЕЛЬ: СОЗДАВАТЬ</span><span class="scroll-cue">SCROLL ↓</span></div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="courses_eyebrow">НАПРАВЛЕНИЯ</span></div><h2 data-i18n="courses_title">Выбери свой <span class="gradient-text">старт</span></h2></div>
+          <p data-i18n="courses_intro">Два современных направления, которые помогут сделать первые шаги в мире технологий.</p>
+        </div>
+        <div class="course-grid">
+          <article class="course-card python-card">
+            <div class="card-top"><span class="course-label"><span class="label-dot"></span> COURSE 01</span><span class="course-icon python-icon">Py</span></div>
+            <h3>Python</h3>
+            <p class="course-subtitle" data-i18n="python_subtitle">Научись программировать с нуля</p>
+            <p class="course-description" data-i18n="python_desc">Разберись в основах Python, научись писать код и создавай собственные программы шаг за шагом.</p>
+            <div class="skill-list"><span data-i18n="python_skill1">Основы языка</span><span data-i18n="python_skill2">Логика и алгоритмы</span><span data-i18n="python_skill3">Практические проекты</span></div>
+            <a class="card-link" href="#contact" data-course="Python" data-i18n="course_cta">Подробнее о курсе <span>↗</span></a>
+          </article>
+          <article class="course-card vibe-card">
+            <div class="card-top"><span class="course-label"><span class="label-dot"></span> COURSE 02</span><span class="course-icon vibe-icon">✳</span></div>
+            <h3>Vibe Coding</h3>
+            <p class="course-subtitle" data-i18n="vibe_subtitle">Создавай проекты вместе с AI</p>
+            <p class="course-description" data-i18n="vibe_desc">Научись формулировать идеи, работать с AI-инструментами и собирать сайты и приложения с помощью ИИ.</p>
+            <div class="skill-list"><span data-i18n="vibe_skill1">Работа с AI</span><span data-i18n="vibe_skill2">Создание сайтов</span><span data-i18n="vibe_skill3">От идеи до прототипа</span></div>
+            <a class="card-link" href="#contact" data-course="Vibe Coding" data-i18n="course_cta">Подробнее о курсе <span>↗</span></a>
+          </article>
+        </div>
+        <div class="visual-strip">
+          <div class="visual-strip-copy"><span class="mini-kicker" data-i18n="visual_eyebrow">YOUR CREATIVE SPACE</span><h3 data-i18n="visual_title">Идеи обретают <span class="gradient-text">форму.</span></h3><p data-i18n="visual_text">От первых строк кода до проектов, которыми хочется поделиться.</p></div>
+          <div class="visual-tile tile-code"><div class="tile-orb orb-purple"></div><span class="tile-label">01 / CODE</span><b>Build<br>something<br>real<span class="tile-period">.</span><div class="tile-grid"></div></b></div>
+          <div class="visual-tile tile-ai"><div class="tile-orb orb-blue"></div><span class="tile-label">02 / CREATE</span><div class="ai-core">✳</div><b>Think beyond<br>the prompt<span class="tile-period">.</span></b></div>
+        </div>
+        <div class="combo-banner"><div class="combo-icon">✦</div><div><b data-i18n="combo_title">Хочешь изучать оба направления?</b><p data-i18n="combo_text">Оставь заявку, чтобы узнать о доступных вариантах обучения.</p></div><a href="#contact" class="button button-light" data-i18n="combo_cta">Оставить заявку <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-art">
+          <div class="art-image art-image-main" role="img" aria-label="Abstract neon technology workspace"></div><div class="art-image art-image-small" role="img" aria-label="Purple and blue digital abstract shapes"></div>
+          <div class="about-orb"><span>&lt;/&gt;</span></div>
+          <div class="about-chip chip-one">01 <span>LEARN</span></div><div class="about-chip chip-two">02 <span>CREATE</span></div><div class="about-chip chip-three">03 <span>GROW</span></div>
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="about_eyebrow">НАШ ПОДХОД</span></div>
+          <h2 data-i18n="about_title">Не просто изучай.<br><span class="gradient-text">Создавай.</span></h2>
+          <p data-i18n="about_text">Технологии становятся понятнее, когда ты применяешь знания на практике. Курсы помогут познакомиться с инструментами разработки и сделать первые собственные проекты.</p>
+          <div class="feature-list">
+            <div class="feature"><span class="feature-check">✓</span><div><b data-i18n="feature1_title">Подходит начинающим</b><p data-i18n="feature1_text">Можно начать без опыта программирования.</p></div></div>
+            <div class="feature"><span class="feature-check">✓</span><div><b data-i18n="feature2_title">Фокус на практике</b><p data-i18n="feature2_text">Знакомство с инструментами через реальные задачи.</p></div></div>
+            <div class="feature"><span class="feature-check">✓</span><div><b data-i18n="feature3_title">Современные навыки</b><p data-i18n="feature3_text">Python, AI-инструменты и цифровое творчество.</p></div></div>
+          </div>
+          <a class="button button-primary" href="#contact" data-i18n="about_cta">Узнать условия обучения <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps-section">
+      <div class="container">
+        <div class="section-heading centered"><div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="steps_eyebrow">КАК НАЧАТЬ</span><span class="eyebrow-line"></span></div><h2 data-i18n="steps_title">Твой путь начинается <span class="gradient-text">здесь</span></h2><p data-i18n="steps_intro">Всего несколько шагов отделяют тебя от знакомства с программированием.</p></div>
+        <div class="steps-grid">
+          <div class="step"><span class="step-number">01</span><div class="step-icon">✉</div><h3 data-i18n="step1_title">Оставь заявку</h3><p data-i18n="step1_text">Расскажи, какое направление тебя интересует.</p></div>
+          <div class="step"><span class="step-number">02</span><div class="step-icon">↗</div><h3 data-i18n="step2_title">Узнай детали</h3><p data-i18n="step2_text">Получи информацию о программе и формате обучения.</p></div>
+          <div class="step"><span class="step-number">03</span><div class="step-icon">⌘</div><h3 data-i18n="step3_title">Начни обучение</h3><p data-i18n="step3_text">Занимайся в отдельном приложении и развивай навыки.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outcomes-section"><div class="container outcomes-panel">
+      <div class="outcome-heading"><div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="outcomes_eyebrow">THE MINDSET</span></div><h2 data-i18n="outcomes_title">Технологии — это<br><span class="gradient-text">инструмент для идей.</span></h2></div>
+      <div class="outcome-item"><span class="outcome-icon">⌘</span><div><b data-i18n="outcome1_title">Разбирайся</b><p data-i18n="outcome1_text">Понимай, как устроены цифровые продукты.</p></div></div>
+      <div class="outcome-item"><span class="outcome-icon">✳</span><div><b data-i18n="outcome2_title">Экспериментируй</b><p data-i18n="outcome2_text">Пробуй инструменты, проверяй идеи и учись на практике.</p></div></div>
+      <div class="outcome-item"><span class="outcome-icon">↗</span><div><b data-i18n="outcome3_title">Создавай</b><p data-i18n="outcome3_text">Шаг за шагом превращай задумки в проекты.</p></div></div>
+    </div></section>
+    <section class="section faq-section" id="faq">
+      <div class="container faq-grid">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="faq_eyebrow">FAQ</span></div><h2 data-i18n="faq_title">Есть <span class="gradient-text">вопросы?</span></h2><p class="faq-lead" data-i18n="faq_lead">Собрали ответы на то, что важно знать перед записью.</p></div>
+        <div class="faq-list">
+          <details><summary data-i18n="faq_q1">Нужен ли опыт программирования?<span>+</span></summary><p data-i18n="faq_a1">Нет. Направления рассчитаны в том числе на тех, кто только начинает знакомство с программированием.</p></details>
+          <details><summary data-i18n="faq_q2">Где проходят занятия?<span>+</span></summary><p data-i18n="faq_a2">Обучение проходит онлайн через отдельное приложение. Подробности сообщаются после обращения.</p></details>
+          <details><summary data-i18n="faq_q3">Можно ли выбрать оба курса?<span>+</span></summary><p data-i18n="faq_a3">Да, оставь заявку и уточни, что тебя интересуют оба направления.</p></details>
+          <details><summary data-i18n="faq_q4">Сколько стоит обучение?<span>+</span></summary><p data-i18n="faq_a4">Актуальную стоимость и условия можно узнать, связавшись с организаторами.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-glow"></div>
+          <div class="contact-content"><div class="eyebrow"><span class="pulse"></span><span data-i18n="contact_eyebrow">СДЕЛАЙ ПЕРВЫЙ ШАГ</span></div><h2 data-i18n="contact_title">Твоя следующая<br><span class="gradient-text">глава — в коде.</span></h2><p data-i18n="contact_text">Оставь заявку, чтобы узнать подробности о курсах Python и Vibe Coding.</p></div>
+          <form class="contact-form" id="leadForm">
+            <label for="studentName" data-i18n="form_name_label">Твоё имя</label>
+            <input id="studentName" name="name" type="text" required placeholder="Например, Алекс" data-i18n-placeholder="form_name_placeholder">
+            <label for="courseChoice" data-i18n="form_course_label">Интересующее направление</label>
+            <select id="courseChoice" name="course"><option value="Python">Python</option><option value="Vibe Coding">Vibe Coding</option><option value="Оба курса" data-i18n="form_both">Оба курса</option></select>
+            <label for="contactInfo" data-i18n="form_contact_label">Твой Telegram или контакт</label>
+            <input id="contactInfo" name="contact" type="text" required placeholder="@username" data-i18n-placeholder="form_contact_placeholder">
+            <button class="button button-primary form-submit" type="submit"><span data-i18n="form_submit">Отправить заявку</span><span>↗</span></button>
+            <p class="form-note" data-i18n="form_note">Нажимая кнопку, ты подготовишь сообщение для отправки организатору в Telegram.</p>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>PYTHON<span class="brand-plus">&</span>VIBE</span></a><p data-i18n="footer_tagline">Учись. Создавай. Развивайся.</p><a href="#home" class="back-top" data-i18n="back_top">Наверх ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Python & Vibe Academy</span><span data-i18n="footer_note">Образовательный проект</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
