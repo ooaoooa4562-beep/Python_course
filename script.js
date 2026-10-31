@@ -3,6 +3,7 @@ const TELEGRAM_USERNAME = "Shapka_Durov";
 
 const translations = {
 ru: {
+nav_tools:"Инструменты",tools_eyebrow:"ТВОЙ СЛЕДУЮЩИЙ ШАГ",tools_title:"Твоя точка <span class=\"gradient-text\">старта.</span>",tools_intro:"Не знаешь, с чего начать? Исследуй инструменты, выбери маршрут и отслеживай первые шаги.",quiz_title:"Найди свой маршрут",quiz_intro:"Ответь на три коротких вопроса — подскажем, какое направление попробовать первым.",quiz_q1:"Твой опыт",quiz_exp_new:"Я начинаю с нуля",quiz_exp_some:"Уже пробовал(а) кодить",quiz_exp_confident:"Есть базовые знания",quiz_q2:"Что хочется создавать?",quiz_goal_logic:"Программы и автоматизацию",quiz_goal_web:"Сайты и приложения с AI",quiz_goal_both:"И то и другое",quiz_q3:"Какой темп тебе ближе?",quiz_pace_calm:"Спокойно, шаг за шагом",quiz_pace_steady:"Регулярно по расписанию",quiz_pace_fast:"Хочу быстрее перейти к практике",quiz_cta:"Получить рекомендацию ↗",quiz_result_python:"Рекомендуем начать с Python",quiz_result_vibe:"Попробуй Vibe Coding",quiz_result_both:"Тебе подойдут оба направления",quiz_result_desc:"Это ориентир по твоим ответам, а не тест на способности. Можно начать с любого курса.",quiz_result_beginner:"Начни с основ — опыт не обязателен.",quiz_result_experienced:"У тебя уже есть база: переходи к небольшим практическим задачам.",planner_title:"Рассчитай свой ритм",planner_intro:"Прикинь, сколько времени может занять знакомство с выбранным направлением.",planner_course:"Направление",planner_python:"Python",planner_vibe:"Vibe Coding",planner_both:"Оба направления",planner_hours:"Время в неделю",planner_min:"2 часа",planner_max:"14 часов",planner_estimate:"Ориентировочный план",planner_weeks_unit:"недель",planner_note:"Это примерная оценка для планирования, а не обещание срока обучения.",projects_title:"Идеи для твоих проектов",projects_intro:"Посмотри, что можно создать по мере освоения навыков.",filter_all:"Все",project1_title:"Умный список задач",project1_text:"Сохраняй дела, отмечай выполненное и наводи порядок в планах.",project2_title:"Персональный сайт",project2_text:"Собери страницу-портфолио с помощью AI-инструментов.",project3_title:"Бот-помощник",project3_text:"Автоматизируй простые ответы и полезные действия.",project4_title:"Мини-приложение",project4_text:"Преврати идею в кликабельный прототип и проверь её.",level_beginner:"Старт",level_next:"Следующий шаг",projects_empty:"В этой категории пока нет проектов.",tracker_title:"Твой прогресс",tracker_intro:"Отмечай освоенные шаги. Прогресс сохранится в этом браузере.",tracker_done:"выполнено",track1:"Познакомился с интерфейсом и инструментами",track2:"Понял базовые понятия и термины",track3:"Повторил первый практический пример",track4:"Сделал небольшое задание самостоятельно",track5:"Поделился своим первым проектом",tracker_reset:"Сбросить отметки",tracker_note:"Отметки хранятся только на этом устройстве.",finder_title:"Найди быстрый ответ",finder_intro:"Введи ключевое слово — покажем подходящие вопросы об обучении.",finder_placeholder:"Например: цена, опыт, онлайн",finder_hint:"Популярное:",finder_tag1:"опыт",finder_tag2:"онлайн",finder_tag3:"цена",finder_all:"Показать все вопросы ↗",finder_count:"Найдено вопросов: ",finder_none:"Ничего не найдено. Попробуй другое слово.",
 nav_home:"Главная",nav_courses:"Курсы",nav_about:"О нас",nav_faq:"Вопросы",nav_cta:"Записаться",
 hero_tag:"ТВОЯ ИДЕЯ. ТВОЙ КОД. ТВОЁ БУДУЩЕЕ.",hero_title:'Создавай будущее<br>с <span class="gradient-text">Python & AI</span>',hero_text:"Освой программирование с нуля и научись превращать идеи в реальные цифровые проекты. Выбери направление и начни свой путь.",hero_button:'Выбрать курс <span>↗</span>',hero_link:"Узнать о программе",proof_title:"От первой идеи до своего проекта",proof_text:"Понятный маршрут для начинающих",terminal_text:"Идея готова к запуску...",float_python:"Логика и код",float_ai:"Идеи + AI",visual_caption:"LEARN · BUILD · CREATE",hero_bottom:"ДВА НАПРАВЛЕНИЯ — ОДНА ЦЕЛЬ: СОЗДАВАТЬ",
 courses_eyebrow:"НАПРАВЛЕНИЯ",courses_title:'Выбери свой <span class="gradient-text">старт</span>',courses_intro:"Два современных направления, которые помогут сделать первые шаги в мире технологий.",python_subtitle:"Научись программировать с нуля",python_desc:"Разберись в основах Python, научись писать код и создавай собственные программы шаг за шагом.",python_skill1:"Основы языка",python_skill2:"Логика и алгоритмы",python_skill3:"Практические проекты",vibe_subtitle:"Создавай проекты вместе с AI",vibe_desc:"Научись формулировать идеи, работать с AI-инструментами и собирать сайты и приложения с помощью ИИ.",vibe_skill1:"Работа с AI",vibe_skill2:"Создание сайтов",vibe_skill3:"От идеи до прототипа",course_cta:'Подробнее о курсе <span>↗</span>',combo_title:"Хочешь изучать оба направления?",combo_text:"Оставь заявку, чтобы узнать о доступных вариантах обучения.",combo_cta:'Оставить заявку <span>↗</span>',
@@ -12,6 +13,7 @@ faq_eyebrow:"FAQ",faq_title:'Есть <span class="gradient-text">вопросы
 contact_eyebrow:"СДЕЛАЙ ПЕРВЫЙ ШАГ",contact_title:'Твоя следующая<br><span class="gradient-text">глава — в коде.</span>',contact_text:"Оставь заявку, чтобы узнать подробности о курсах Python и Vibe Coding.",form_name_label:"Твоё имя",form_name_placeholder:"Например, Алекс",form_course_label:"Интересующее направление",form_both:"Оба курса",form_contact_label:"Твой Telegram или контакт",form_contact_placeholder:"@username",form_submit:"Отправить заявку",form_note:"Нажимая кнопку, ты подготовишь сообщение для отправки организатору в Telegram.",form_missing:"Заполни, пожалуйста, все поля.",form_demo:"Укажи Telegram организатора в файле script.js, чтобы включить отправку заявок.",footer_tagline:"Учись. Создавай. Развивайся.",back_top:"Наверх ↑",lab_output:"Привет, мир!",lab_eyebrow:"ЖИВОЙ ПРИМЕР",lab_title:'От идеи — к <span class="gradient-text">работающему коду.</span>',lab_text:"Посмотри, как несколько строк Python превращаются в результат.",lab_result_label:"Результат программы",lab_copy:"Копировать код",lab_run:"Запустить пример ↻",lab_copied:"Код скопирован",lab_copy_error:"Не удалось скопировать код",form_success:"Telegram откроется в новой вкладке. Проверь и отправь подготовленное сообщение.",lab_running:"ВЫПОЛНЯЕТСЯ",lab_success:"Выполнено успешно",counter_paths:"направления",counter_languages:"языка интерфейса",counter_goal:"цель — создавать",floating_apply:"Записаться",loader_text:"Загружаем творческую среду…",footer_note:"Образовательный проект"
 },
 en: {
+nav_tools:"Explore",tools_eyebrow:"YOUR NEXT MOVE",tools_title:"Your starting <span class=\"gradient-text\">point.</span>",tools_intro:"Not sure where to begin? Explore the tools, choose a path and track your first steps.",quiz_title:"Find your learning path",quiz_intro:"Answer three quick questions and get a suggestion for where to start.",quiz_q1:"Your experience",quiz_exp_new:"I'm completely new",quiz_exp_some:"I've tried coding before",quiz_exp_confident:"I know the basics",quiz_q2:"What would you like to build?",quiz_goal_logic:"Programs and automation",quiz_goal_web:"Websites and apps with AI",quiz_goal_both:"A bit of both",quiz_q3:"What pace suits you?",quiz_pace_calm:"Slow and steady",quiz_pace_steady:"A regular weekly routine",quiz_pace_fast:"I want hands-on practice quickly",quiz_cta:"Get my recommendation ↗",quiz_result_python:"Start with Python",quiz_result_vibe:"Try Vibe Coding",quiz_result_both:"Both paths could suit you",quiz_result_desc:"This is a guide based on your answers, not an ability test. You can start with either course.",quiz_result_beginner:"Begin with the fundamentals — no experience needed.",quiz_result_experienced:"You have a foundation already: try small practical challenges.",planner_title:"Plan your learning rhythm",planner_intro:"Estimate how long it could take to explore your chosen learning path.",planner_course:"Learning path",planner_python:"Python",planner_vibe:"Vibe Coding",planner_both:"Both paths",planner_hours:"Hours per week",planner_min:"2 hours",planner_max:"14 hours",planner_estimate:"Illustrative study plan",planner_weeks_unit:"weeks",planner_note:"This is a planning estimate, not a promised course duration.",projects_title:"Ideas for your projects",projects_intro:"Explore what you could create as your skills grow.",filter_all:"All",project1_title:"Smart task list",project1_text:"Save tasks, check them off and keep your plans organised.",project2_title:"Personal website",project2_text:"Build a portfolio page with the help of AI tools.",project3_title:"Helpful bot",project3_text:"Automate simple replies and useful actions.",project4_title:"Mini application",project4_text:"Turn an idea into a clickable prototype and test it.",level_beginner:"Starter",level_next:"Next step",projects_empty:"There are no projects in this category yet.",tracker_title:"Your progress",tracker_intro:"Tick off the steps you complete. Progress is saved in this browser.",tracker_done:"completed",track1:"Explore the interface and tools",track2:"Understand the basic concepts and terms",track3:"Recreate your first practical example",track4:"Complete a small task independently",track5:"Share your first project",tracker_reset:"Reset checklist",tracker_note:"Your checklist stays on this device only.",finder_title:"Find a quick answer",finder_intro:"Enter a keyword to find relevant course questions.",finder_placeholder:"Try: price, experience, online",finder_hint:"Popular:",finder_tag1:"experience",finder_tag2:"online",finder_tag3:"price",finder_all:"Show all questions ↗",finder_count:"Questions found: ",finder_none:"No matches found. Try another keyword.",
 nav_home:"Home",nav_courses:"Courses",nav_about:"About",nav_faq:"FAQ",nav_cta:"Apply",
 hero_tag:"YOUR IDEA. YOUR CODE. YOUR FUTURE.",hero_title:'Build the future<br>with <span class="gradient-text">Python & AI</span>',hero_text:"Learn programming from scratch and turn ideas into real digital projects. Choose a path and start your journey.",hero_button:'Explore courses <span>↗</span>',hero_link:"Explore the approach",proof_title:"From your first idea to your own project",proof_text:"A clear path for beginners",terminal_text:"Your idea is ready to launch...",float_python:"Logic & code",float_ai:"Ideas + AI",visual_caption:"LEARN · BUILD · CREATE",hero_bottom:"TWO PATHS — ONE GOAL: CREATE",
 courses_eyebrow:"LEARNING PATHS",courses_title:'Choose your <span class="gradient-text">starting point</span>',courses_intro:"Two modern learning paths to help you take your first steps in technology.",python_subtitle:"Learn to code from scratch",python_desc:"Explore Python fundamentals, learn to write code and build your own programs step by step.",python_skill1:"Language basics",python_skill2:"Logic & algorithms",python_skill3:"Practical projects",vibe_subtitle:"Build projects with AI",vibe_desc:"Learn to shape ideas, work with AI tools and create websites and apps with AI assistance.",vibe_skill1:"Working with AI",vibe_skill2:"Website creation",vibe_skill3:"Idea to prototype",course_cta:'Explore the course <span>↗</span>',combo_title:"Interested in both paths?",combo_text:"Send an enquiry to learn about available study options.",combo_cta:'Send an enquiry <span>↗</span>',
@@ -21,6 +23,7 @@ faq_eyebrow:"FAQ",faq_title:'Got <span class="gradient-text">questions?</span>',
 contact_eyebrow:"TAKE THE FIRST STEP",contact_title:'Your next chapter<br><span class="gradient-text">is in code.</span>',contact_text:"Send an enquiry to learn more about the Python and Vibe Coding courses.",form_name_label:"Your name",form_name_placeholder:"For example, Alex",form_course_label:"Course of interest",form_both:"Both courses",form_contact_label:"Your Telegram or contact",form_contact_placeholder:"@username",form_submit:"Send an enquiry",form_note:"The button prepares a message for the course organiser in Telegram.",form_missing:"Please complete all fields.",form_demo:"Add the organiser's Telegram username in script.js to enable enquiries.",footer_tagline:"Learn. Create. Grow.",back_top:"Back to top ↑",lab_output:"Hello, world!",lab_eyebrow:"LIVE CODE LAB",lab_title:'Turn an idea into <span class="gradient-text">working code.</span>',lab_text:"See how a few lines of Python become a result.",lab_result_label:"Program output",lab_copy:"Copy code",lab_run:"Run example ↻",lab_copied:"Code copied",lab_copy_error:"Could not copy code",form_success:"Telegram will open in a new tab. Review and send the prepared message.",lab_running:"RUNNING",lab_success:"Executed successfully",counter_paths:"learning paths",counter_languages:"interface languages",counter_goal:"goal: create",floating_apply:"Apply",loader_text:"Preparing your creative space…",footer_note:"Educational project"
 },
 uz: {
+nav_tools:"Vositalar",tools_eyebrow:"KEYINGI QADAMING",tools_title:"Sening <span class=\"gradient-text\">boshlanish nuqtang.</span>",tools_intro:"Nimadan boshlashni bilmayapsanmi? Vositalarni sinab ko‘r, yo‘nalishni tanla va ilk qadamlaringni kuzat.",quiz_title:"O‘zingga mos yo‘lni top",quiz_intro:"Uchta qisqa savolga javob ber — qaysi yo‘nalishdan boshlashni tavsiya qilamiz.",quiz_q1:"Tajribang",quiz_exp_new:"Endi boshlayapman",quiz_exp_some:"Avval kod yozib ko‘rganman",quiz_exp_confident:"Asosiy bilimlarim bor",quiz_q2:"Nima yaratmoqchisan?",quiz_goal_logic:"Dasturlar va avtomatlashtirish",quiz_goal_web:"AI yordamida sayt va ilovalar",quiz_goal_both:"Ikkalasi ham",quiz_q3:"Qaysi sur’at mos?",quiz_pace_calm:"Shoshilmasdan, bosqichma-bosqich",quiz_pace_steady:"Haftalik muntazam jadval",quiz_pace_fast:"Tezroq amaliyotga o‘tmoqchiman",quiz_cta:"Tavsiyani olish ↗",quiz_result_python:"Python’dan boshlashni tavsiya qilamiz",quiz_result_vibe:"Vibe Coding’ni sinab ko‘r",quiz_result_both:"Senga ikkala yo‘nalish ham mos kelishi mumkin",quiz_result_desc:"Bu javoblaring asosidagi tavsiya, qobiliyat testi emas. Istalgan kursdan boshlashing mumkin.",quiz_result_beginner:"Asoslardan boshlagin — tajriba shart emas.",quiz_result_experienced:"Senda boshlang‘ich bilim bor: kichik amaliy vazifalarni sinab ko‘r.",planner_title:"O‘qish sur’atingni rejalashtir",planner_intro:"Tanlangan yo‘nalishni o‘rganish uchun taxminiy vaqtni hisobla.",planner_course:"Yo‘nalish",planner_python:"Python",planner_vibe:"Vibe Coding",planner_both:"Ikkala yo‘nalish",planner_hours:"Haftasiga soat",planner_min:"2 soat",planner_max:"14 soat",planner_estimate:"Taxminiy reja",planner_weeks_unit:"hafta",planner_note:"Bu rejalashtirish uchun taxminiy hisob, kurs muddati kafolati emas.",projects_title:"Loyihalaring uchun g‘oyalar",projects_intro:"Ko‘nikmalaring oshgani sari nimalar yaratishing mumkinligini ko‘r.",filter_all:"Barchasi",project1_title:"Aqlli vazifalar ro‘yxati",project1_text:"Vazifalarni saqla, bajarilganini belgilа va rejalaringni tartibga sol.",project2_title:"Shaxsiy sayt",project2_text:"AI vositalari yordamida portfolio sahifasini yarat.",project3_title:"Yordamchi bot",project3_text:"Oddiy javoblar va foydali amallarni avtomatlashtir.",project4_title:"Mini-ilova",project4_text:"G‘oyani bosiladigan prototipga aylantir va sinab ko‘r.",level_beginner:"Boshlang‘ich",level_next:"Keyingi qadam",projects_empty:"Bu turkumda hozircha loyihalar yo‘q.",tracker_title:"Sening natijalaring",tracker_intro:"O‘rgangan bosqichlaringni belgila. Natijalar shu brauzerda saqlanadi.",tracker_done:"bajarildi",track1:"Interfeys va vositalar bilan tanishdim",track2:"Asosiy tushuncha va atamalarni bildim",track3:"Birinchi amaliy misolni takrorladim",track4:"Kichik vazifani mustaqil bajardim",track5:"Birinchi loyihamni ulashdim",tracker_reset:"Belgilarni tozalash",tracker_note:"Belgilar faqat shu qurilmada saqlanadi.",finder_title:"Tezkor javobni top",finder_intro:"Kalit so‘zni kiriting — mos savollarni ko‘rsatamiz.",finder_placeholder:"Masalan: narx, tajriba, onlayn",finder_hint:"Ommabop:",finder_tag1:"tajriba",finder_tag2:"onlayn",finder_tag3:"narx",finder_all:"Barcha savollarni ko‘rsatish ↗",finder_count:"Topilgan savollar: ",finder_none:"Hech narsa topilmadi. Boshqa so‘zni sinab ko‘r.",
 nav_home:"Bosh sahifa",nav_courses:"Kurslar",nav_about:"Biz haqimizda",nav_faq:"Savollar",nav_cta:"Yozilish",
 hero_tag:"SENING G‘OYANG. SENING KODING. SENING KELAJAGING.",hero_title:'Kelajakni <span class="gradient-text">Python & AI</span><br>bilan yarat',hero_text:"Dasturlashni noldan o‘rgan va g‘oyalaringni haqiqiy raqamli loyihalarga aylantir. Yo‘nalishni tanla va boshlayver.",hero_button:'Kurslarni ko‘rish <span>↗</span>',hero_link:"Dastur haqida",proof_title:"Birinchi g‘oyadan shaxsiy loyihagacha",proof_text:"Yangi boshlovchilar uchun tushunarli yo‘l",terminal_text:"G‘oya ishga tushishga tayyor...",float_python:"Mantiq va kod",float_ai:"G‘oyalar + AI",visual_caption:"O‘RGAN · YARAT · RIVOJLAN",hero_bottom:"IKKI YO‘NALISH — BITTA MAQSAD: YARATISH",
 courses_eyebrow:"YO‘NALISHLAR",courses_title:'O‘z <span class="gradient-text">boshlanishingni</span> tanla',courses_intro:"Texnologiyalar olamidagi ilk qadamlarga yordam beradigan ikki zamonaviy yo‘nalish.",python_subtitle:"Dasturlashni noldan o‘rgan",python_desc:"Python asoslarini o‘rgan, kod yozishni boshlа va bosqichma-bosqich o‘z dasturlaringni yarat.",python_skill1:"Til asoslari",python_skill2:"Mantiq va algoritmlar",python_skill3:"Amaliy loyihalar",vibe_subtitle:"AI bilan loyihalar yarat",vibe_desc:"G‘oyalarni aniq ifodalashni, AI vositalaridan foydalanishni va sayt hamda ilovalar yaratishni o‘rgan.",vibe_skill1:"AI bilan ishlash",vibe_skill2:"Sayt yaratish",vibe_skill3:"G‘oyadan prototipgacha",course_cta:'Kurs haqida batafsil <span>↗</span>',combo_title:"Ikkala yo‘nalishni ham o‘rganmoqchimisan?",combo_text:"Ta’lim imkoniyatlari haqida bilish uchun ariza qoldir.",combo_cta:'Ariza qoldirish <span>↗</span>',
@@ -105,7 +108,7 @@ document.getElementById("leadForm").addEventListener("submit", event => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 // Scroll reveals: content enters smoothly as the visitor moves down the page.
-const revealTargets = document.querySelectorAll('.section-heading,.course-card,.combo-banner,.about-art,.about-copy,.step,.faq-grid > div,.contact-panel,.visual-strip-copy,.visual-tile,.outcomes-panel');
+const revealTargets = document.querySelectorAll('.tools-heading,.tool-card,.section-heading,.course-card,.combo-banner,.about-art,.about-copy,.step,.faq-grid > div,.contact-panel,.visual-strip-copy,.visual-tile,.outcomes-panel');
 revealTargets.forEach((el,index)=>{el.classList.add('reveal');if(el.matches('.about-art,.faq-grid > div:first-child'))el.classList.add('reveal-left');if(el.matches('.about-copy,.faq-grid > div:last-child'))el.classList.add('reveal-right');if(el.classList.contains('course-card')||el.classList.contains('step')||el.classList.contains('visual-tile'))el.style.transitionDelay=`${(index%3)*90}ms`;});
 if('IntersectionObserver' in window){const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}}),{threshold:.12,rootMargin:'0px 0px -35px 0px'});revealTargets.forEach(el=>revealObserver.observe(el));}else revealTargets.forEach(el=>el.classList.add('is-visible'));
 const cursorGlow=document.getElementById('cursorGlow');window.addEventListener('pointermove',event=>{if(cursorGlow&&event.pointerType==='mouse'){cursorGlow.style.left=`${event.clientX}px`;cursorGlow.style.top=`${event.clientY}px`;}},{passive:true});
@@ -182,4 +185,122 @@ if (copyCodeButton) {
   window.addEventListener('scroll',updateScrollControls,{passive:true});updateScrollControls();
   if(backTop)backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
   document.querySelectorAll('[data-course]').forEach(link=>link.addEventListener('click',()=>{const select=document.getElementById('courseChoice');if(select&&link.dataset.course)select.value=link.dataset.course;}));
+})();
+
+
+/* Five practical self-serve tools */
+(() => {
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+  const currentDict = () => translations[languageSelect.value] || translations.ru;
+
+  // 1. A lightweight learning-path recommender.
+  const quizButton = $("#quizSubmit");
+  const quizResult = $("#quizResult");
+  if (quizButton && quizResult) quizButton.addEventListener("click", () => {
+    const goal = $("#quizGoal").value;
+    const experience = $("#quizExperience").value;
+    const key = goal === "logic" ? "quiz_result_python" : goal === "web" ? "quiz_result_vibe" : "quiz_result_both";
+    const dict = currentDict();
+    quizResult.innerHTML = "<strong>" + dict[key] + "</strong><span>" +
+      (experience === "new" ? dict.quiz_result_beginner : dict.quiz_result_experienced) +
+      " " + dict.quiz_result_desc + "</span>";
+    quizResult.hidden = false;
+  });
+
+  // 2. A transparent weekly study-time estimator, not a course-duration promise.
+  const plannerCourse = $("#plannerCourse"), plannerHours = $("#plannerHours");
+  const plannerOutput = $("#plannerWeeks"), plannerHoursValue = $("#plannerHoursValue");
+  function updatePlanner() {
+    if (!plannerCourse || !plannerHours || !plannerOutput) return;
+    const weeklyHours = Number(plannerHours.value);
+    const totalHours = { python: 36, vibe: 28, both: 56 }[plannerCourse.value] || 36;
+    const weeks = totalHours / weeklyHours;
+    const low = Math.max(1, Math.floor(weeks));
+    const high = Math.max(low, Math.ceil(weeks * 1.2));
+    plannerOutput.textContent = low === high ? String(low) : low + "–" + high;
+    plannerHoursValue.textContent = weeklyHours + " " + (languageSelect.value === "en" ? "h" : languageSelect.value === "uz" ? "soat" : "ч");
+  }
+  if (plannerCourse && plannerHours) {
+    plannerCourse.addEventListener("change", updatePlanner);
+    plannerHours.addEventListener("input", updatePlanner);
+    updatePlanner();
+  }
+
+  // 3. Project gallery filters.
+  const projectFilters = $$(".filter-chip");
+  const projectItems = $$(".project-item");
+  const projectEmpty = $("#projectEmpty");
+  projectFilters.forEach(button => button.addEventListener("click", () => {
+    const category = button.dataset.projectFilter;
+    projectFilters.forEach(item => {
+      const active = item === button;
+      item.classList.toggle("is-active", active);
+      item.setAttribute("aria-pressed", String(active));
+    });
+    let visible = 0;
+    projectItems.forEach(item => {
+      const show = category === "all" || item.dataset.projectCategory === category;
+      item.hidden = !show;
+      if (show) visible++;
+    });
+    if (projectEmpty) projectEmpty.hidden = visible > 0;
+  }));
+
+  // 4. A private, device-local learning checklist.
+  const progressChecks = $$("[data-progress]");
+  const progressKey = "pva-learning-progress-v1";
+  const progressPercent = $("#progressPercent"), progressFill = $("#progressFill"), progressBar = $("#progressBar");
+  function readProgress() {
+    try { const value = JSON.parse(localStorage.getItem(progressKey) || "[]"); return Array.isArray(value) ? value : []; }
+    catch (_) { return []; }
+  }
+  function updateProgress() {
+    const done = progressChecks.filter(input => input.checked).length;
+    const percent = Math.round(done / Math.max(1, progressChecks.length) * 100);
+    if (progressPercent) progressPercent.textContent = percent + "%";
+    if (progressFill) progressFill.style.width = percent + "%";
+    if (progressBar) progressBar.setAttribute("aria-valuenow", String(percent));
+    try { localStorage.setItem(progressKey, JSON.stringify(progressChecks.filter(input => input.checked).map(input => input.dataset.progress))); } catch (_) {}
+  }
+  const savedProgress = readProgress();
+  progressChecks.forEach(input => {
+    input.checked = savedProgress.includes(input.dataset.progress);
+    input.addEventListener("change", updateProgress);
+  });
+  updateProgress();
+  const resetProgress = $("#trackerReset");
+  if (resetProgress) resetProgress.addEventListener("click", () => {
+    progressChecks.forEach(input => { input.checked = false; });
+    updateProgress();
+  });
+
+  // 5. Search existing FAQ content in the currently selected language.
+  const faqSearch = $("#faqSearch"), faqItems = $$(".faq-list details"), faqCount = $("#faqSearchCount");
+  const faqShowAll = $("#faqShowAll");
+  function filterFaq(query) {
+    const normalized = query.trim().toLocaleLowerCase();
+    let matches = 0;
+    faqItems.forEach(item => {
+      const found = !normalized || item.textContent.toLocaleLowerCase().includes(normalized);
+      item.classList.toggle("is-filtered-out", !found);
+      if (found) matches++;
+      if (!found) item.open = false;
+    });
+    if (faqCount) faqCount.textContent = matches ? currentDict().finder_count + matches : currentDict().finder_none;
+    return matches;
+  }
+  if (faqSearch) faqSearch.addEventListener("input", () => filterFaq(faqSearch.value));
+  $$(".finder-suggestions button").forEach(button => button.addEventListener("click", () => {
+    if (!faqSearch) return;
+    faqSearch.value = button.dataset.faqQuery;
+    filterFaq(faqSearch.value);
+    $("#faq").scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  if (faqShowAll) faqShowAll.addEventListener("click", () => {
+    if (faqSearch) faqSearch.value = "";
+    filterFaq("");
+    $("#faq").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  filterFaq("");
 })();
