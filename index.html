@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#080914">
   <meta name="description" content="Python & Vibe Coding Academy — практические курсы программирования и создания проектов с AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Python & Vibe Coding Academy">
+  <meta property="og:description" content="Освой Python и создавай цифровые проекты вместе с AI.">
+  <meta name="twitter:card" content="summary">
+  <meta name="color-scheme" content="dark">
   <title>Python & Vibe Coding Academy</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +17,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#mainContent">Перейти к содержимому</a>
   <div class="page-loader" id="pageLoader" aria-label="Loading"><div class="loader-mark">&lt;/&gt;</div><div class="loader-track"><span></span></div><p>PYTHON <b>&</b> VIBE</p><small data-i18n="loader_text">Загружаем творческую среду…</small></div>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><canvas id="particles" class="particle-canvas" aria-hidden="true"></canvas><div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
   <header class="site-header">
@@ -25,6 +31,7 @@
         <a href="#faq" data-i18n="nav_faq">Вопросы</a>
       </nav>
       <div class="nav-right">
+        <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false" aria-label="Переключить анимацию" title="Включить или отключить анимацию">◌</button>
         <select id="languageSelect" class="language-select" aria-label="Language">
           <option value="ru">RU</option><option value="en">EN</option><option value="uz">UZ</option>
         </select>
@@ -33,7 +40,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="mainContent">
     <section class="hero section" id="home">
       <div class="container hero-grid">
         <div class="hero-copy">
@@ -103,9 +110,9 @@
         </div>
         <section class="live-lab" aria-labelledby="labTitle">
           <div class="lab-copy"><div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="lab_eyebrow">LIVE CODE LAB</span></div><h3 id="labTitle" data-i18n="lab_title">От идеи — к <span class="gradient-text">работающему коду.</span></h3><p data-i18n="lab_text">Небольшой пример того, как несколько строк Python превращаются в результат.</p><div class="lab-result"><span class="result-dot"></span><span data-i18n="lab_result_label">Результат программы</span><strong id="labOutput" data-i18n="lab_output">Привет, мир!</strong></div></div>
-          <div class="lab-editor" id="labEditor"><div class="editor-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>hello_world.py</span><span class="editor-running"><i></i><span data-i18n="lab_running">RUNNING</span></span></div><pre class="editor-code"><span class="editor-line">01</span> <span class="code-blue">message</span> = <span class="code-green">"Привет, мир!"</span>
+          <div class="lab-editor" id="labEditor"><div class="editor-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>hello_world.py</span><span class="editor-running"><i></i><span data-i18n="lab_running">RUNNING</span></span></div><pre class="editor-code" id="labCode"><span class="editor-line">01</span> <span class="code-blue">message</span> = <span class="code-green">"Привет, мир!"</span>
 <span class="editor-line">02</span>
-<span class="editor-line">03</span> <span class="code-blue">print</span>(<span class="code-purple">message</span>)<span class="typing-caret"></span></pre><div class="editor-footer"><span>Python 3</span><span>● <span data-i18n="lab_success">Выполнено успешно</span></span></div></div>
+<span class="editor-line">03</span> <span class="code-blue">print</span>(<span class="code-purple">message</span>)<span class="typing-caret"></span></pre><div class="editor-footer"><span>Python 3</span><div class="lab-actions"><button type="button" class="lab-action" id="copyCode" data-i18n="lab_copy">Копировать код</button><button type="button" class="lab-action" id="runCode" data-i18n="lab_run">Запустить пример ↻</button></div><span>● <span data-i18n="lab_success">Выполнено успешно</span></span></div></div>
         </section>
         <div class="fact-counters" aria-label="Course facts">
           <div class="fact-counter"><strong data-count="2">0</strong><span data-i18n="counter_paths">направления</span></div>
@@ -173,11 +180,11 @@
           <div class="contact-content"><div class="eyebrow"><span class="pulse"></span><span data-i18n="contact_eyebrow">СДЕЛАЙ ПЕРВЫЙ ШАГ</span></div><h2 data-i18n="contact_title">Твоя следующая<br><span class="gradient-text">глава — в коде.</span></h2><p data-i18n="contact_text">Оставь заявку, чтобы узнать подробности о курсах Python и Vibe Coding.</p></div>
           <form class="contact-form" id="leadForm">
             <label for="studentName" data-i18n="form_name_label">Твоё имя</label>
-            <input id="studentName" name="name" type="text" required placeholder="Например, Алекс" data-i18n-placeholder="form_name_placeholder">
+            <input id="studentName" name="name" type="text" autocomplete="name" maxlength="80" required placeholder="Например, Алекс" data-i18n-placeholder="form_name_placeholder">
             <label for="courseChoice" data-i18n="form_course_label">Интересующее направление</label>
             <select id="courseChoice" name="course"><option value="Python">Python</option><option value="Vibe Coding">Vibe Coding</option><option value="Оба курса" data-i18n="form_both">Оба курса</option></select>
             <label for="contactInfo" data-i18n="form_contact_label">Твой Telegram или контакт</label>
-            <input id="contactInfo" name="contact" type="text" required placeholder="@username" data-i18n-placeholder="form_contact_placeholder">
+            <input id="contactInfo" name="contact" type="text" autocomplete="off" maxlength="120" required placeholder="@username" data-i18n-placeholder="form_contact_placeholder">
             <button class="button button-primary form-submit" type="submit"><span data-i18n="form_submit">Отправить заявку</span><span>↗</span></button>
             <p class="form-note" data-i18n="form_note">Нажимая кнопку, ты подготовишь сообщение для отправки организатору в Telegram.</p>
             <p class="form-status" id="formStatus" role="status"></p>
