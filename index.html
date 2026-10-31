@@ -28,6 +28,7 @@
         <a href="#home" data-i18n="nav_home">Главная</a>
         <a href="#courses" data-i18n="nav_courses">Курсы</a>
         <a href="#about" data-i18n="nav_about">О нас</a>
+        <a href="#academyTools" data-i18n="nav_tools">Инструменты</a>
         <a href="#faq" data-i18n="nav_faq">Вопросы</a>
       </nav>
       <div class="nav-right">
@@ -120,6 +121,91 @@
           <div class="fact-counter"><strong data-count="1">0</strong><span data-i18n="counter_goal">цель — создавать</span></div>
         </div>
         <div class="combo-banner"><div class="combo-icon">✦</div><div><b data-i18n="combo_title">Хочешь изучать оба направления?</b><p data-i18n="combo_text">Оставь заявку, чтобы узнать о доступных вариантах обучения.</p></div><a href="#contact" class="button button-light" data-i18n="combo_cta">Оставить заявку <span>↗</span></a></div>
+      </div>
+    </section>
+
+
+    <section class="section academy-tools" id="academyTools">
+      <div class="container">
+        <div class="tools-heading">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="tools_eyebrow">YOUR NEXT MOVE</span></div>
+          <h2 data-i18n="tools_title">Твоя точка <span class="gradient-text">старта.</span></h2>
+          <p data-i18n="tools_intro">Не знаешь, с чего начать? Исследуй инструменты, выбери маршрут и отслеживай первые шаги.</p>
+        </div>
+
+        <div class="tools-grid">
+          <article class="tool-card quiz-card" id="levelQuiz">
+            <div class="tool-card-top"><span class="tool-index">01 / DISCOVER</span><span class="tool-icon">✳</span></div>
+            <h3 data-i18n="quiz_title">Найди свой маршрут</h3>
+            <p class="tool-description" data-i18n="quiz_intro">Ответь на три коротких вопроса — подскажем, какое направление попробовать первым.</p>
+            <label for="quizExperience" data-i18n="quiz_q1">Твой опыт</label>
+            <select id="quizExperience" class="tool-select"><option value="new" data-i18n="quiz_exp_new">Я начинаю с нуля</option><option value="some" data-i18n="quiz_exp_some">Уже пробовал(а) кодить</option><option value="confident" data-i18n="quiz_exp_confident">Есть базовые знания</option></select>
+            <label for="quizGoal" data-i18n="quiz_q2">Что хочется создавать?</label>
+            <select id="quizGoal" class="tool-select"><option value="logic" data-i18n="quiz_goal_logic">Программы и автоматизацию</option><option value="web" data-i18n="quiz_goal_web">Сайты и приложения с AI</option><option value="both" data-i18n="quiz_goal_both">И то и другое</option></select>
+            <label for="quizPace" data-i18n="quiz_q3">Какой темп тебе ближе?</label>
+            <select id="quizPace" class="tool-select"><option value="calm" data-i18n="quiz_pace_calm">Спокойно, шаг за шагом</option><option value="steady" data-i18n="quiz_pace_steady">Регулярно по расписанию</option><option value="fast" data-i18n="quiz_pace_fast">Хочу быстрее перейти к практике</option></select>
+            <button class="button button-primary tool-button" type="button" id="quizSubmit" data-i18n="quiz_cta">Получить рекомендацию ↗</button>
+            <div class="tool-result" id="quizResult" role="status" aria-live="polite" hidden></div>
+          </article>
+
+          <article class="tool-card planner-card" id="studyPlanner">
+            <div class="tool-card-top"><span class="tool-index">02 / PLAN</span><span class="tool-icon">◷</span></div>
+            <h3 data-i18n="planner_title">Рассчитай свой ритм</h3>
+            <p class="tool-description" data-i18n="planner_intro">Прикинь, сколько времени может занять знакомство с выбранным направлением.</p>
+            <label for="plannerCourse" data-i18n="planner_course">Направление</label>
+            <select id="plannerCourse" class="tool-select"><option value="python" data-i18n="planner_python">Python</option><option value="vibe" data-i18n="planner_vibe">Vibe Coding</option><option value="both" data-i18n="planner_both">Оба направления</option></select>
+            <div class="planner-range-head"><label for="plannerHours" data-i18n="planner_hours">Время в неделю</label><output id="plannerHoursValue" for="plannerHours">5 ч</output></div>
+            <input id="plannerHours" class="tool-range" type="range" min="2" max="14" value="5" step="1">
+            <div class="range-scale"><span data-i18n="planner_min">2 часа</span><span data-i18n="planner_max">14 часов</span></div>
+            <div class="planner-estimate"><span data-i18n="planner_estimate">Ориентировочный план</span><strong id="plannerWeeks">7–9</strong><small data-i18n="planner_weeks_unit">недель</small></div>
+            <p class="tool-footnote" data-i18n="planner_note">Это примерная оценка для планирования, а не обещание срока обучения.</p>
+          </article>
+
+          <article class="tool-card projects-card" id="projectGallery">
+            <div class="tool-card-top"><span class="tool-index">03 / EXPLORE</span><span class="tool-icon">⌘</span></div>
+            <h3 data-i18n="projects_title">Идеи для твоих проектов</h3>
+            <p class="tool-description" data-i18n="projects_intro">Посмотри, что можно создать по мере освоения навыков.</p>
+            <div class="project-filters" role="group" aria-label="Project filters">
+              <button type="button" class="filter-chip is-active" data-project-filter="all" aria-pressed="true" data-i18n="filter_all">Все</button>
+              <button type="button" class="filter-chip" data-project-filter="python" aria-pressed="false">Python</button>
+              <button type="button" class="filter-chip" data-project-filter="vibe" aria-pressed="false">Vibe Coding</button>
+            </div>
+            <div class="project-list">
+              <article class="project-item" data-project-category="python"><span class="project-symbol symbol-purple">Py</span><div><b data-i18n="project1_title">Умный список задач</b><p data-i18n="project1_text">Сохраняй дела, отмечай выполненное и наводи порядок в планах.</p></div><span class="project-level" data-i18n="level_beginner">Старт</span></article>
+              <article class="project-item" data-project-category="vibe"><span class="project-symbol symbol-blue">✳</span><div><b data-i18n="project2_title">Персональный сайт</b><p data-i18n="project2_text">Собери страницу-портфолио с помощью AI-инструментов.</p></div><span class="project-level" data-i18n="level_beginner">Старт</span></article>
+              <article class="project-item" data-project-category="python"><span class="project-symbol symbol-cyan">↗</span><div><b data-i18n="project3_title">Бот-помощник</b><p data-i18n="project3_text">Автоматизируй простые ответы и полезные действия.</p></div><span class="project-level" data-i18n="level_next">Следующий шаг</span></article>
+              <article class="project-item" data-project-category="vibe"><span class="project-symbol symbol-pink">◈</span><div><b data-i18n="project4_title">Мини-приложение</b><p data-i18n="project4_text">Преврати идею в кликабельный прототип и проверь её.</p></div><span class="project-level" data-i18n="level_next">Следующий шаг</span></article>
+            </div>
+            <p class="project-empty" id="projectEmpty" hidden data-i18n="projects_empty">В этой категории пока нет проектов.</p>
+          </article>
+
+          <article class="tool-card progress-card" id="skillTracker">
+            <div class="tool-card-top"><span class="tool-index">04 / TRACK</span><span class="tool-icon">◉</span></div>
+            <h3 data-i18n="tracker_title">Твой прогресс</h3>
+            <p class="tool-description" data-i18n="tracker_intro">Отмечай освоенные шаги. Прогресс сохранится в этом браузере.</p>
+            <div class="progress-summary"><strong id="progressPercent">0%</strong><span data-i18n="tracker_done">выполнено</span></div>
+            <div class="progress-track" role="progressbar" aria-label="Learning progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressBar"><span id="progressFill"></span></div>
+            <div class="tracker-list">
+              <label class="tracker-item"><input type="checkbox" data-progress="0"><span data-i18n="track1">Познакомился с интерфейсом и инструментами</span></label>
+              <label class="tracker-item"><input type="checkbox" data-progress="1"><span data-i18n="track2">Понял базовые понятия и термины</span></label>
+              <label class="tracker-item"><input type="checkbox" data-progress="2"><span data-i18n="track3">Повторил первый практический пример</span></label>
+              <label class="tracker-item"><input type="checkbox" data-progress="3"><span data-i18n="track4">Сделал небольшое задание самостоятельно</span></label>
+              <label class="tracker-item"><input type="checkbox" data-progress="4"><span data-i18n="track5">Поделился своим первым проектом</span></label>
+            </div>
+            <button type="button" class="tracker-reset" id="trackerReset" data-i18n="tracker_reset">Сбросить отметки</button>
+            <p class="tool-footnote" data-i18n="tracker_note">Отметки хранятся только на этом устройстве.</p>
+          </article>
+
+          <article class="tool-card faq-search-card" id="faqFinder">
+            <div class="tool-card-top"><span class="tool-index">05 / FIND</span><span class="tool-icon">⌕</span></div>
+            <h3 data-i18n="finder_title">Найди быстрый ответ</h3>
+            <p class="tool-description" data-i18n="finder_intro">Введи ключевое слово — покажем подходящие вопросы об обучении.</p>
+            <label class="search-field"><span aria-hidden="true">⌕</span><input id="faqSearch" type="search" autocomplete="off" data-i18n-placeholder="finder_placeholder" placeholder="Например: цена, опыт, онлайн"></label>
+            <div class="finder-suggestions"><span data-i18n="finder_hint">Популярное:</span><button type="button" data-faq-query="опыт" data-i18n="finder_tag1">опыт</button><button type="button" data-faq-query="онлайн" data-i18n="finder_tag2">онлайн</button><button type="button" data-faq-query="цена" data-i18n="finder_tag3">цена</button></div>
+            <p class="finder-count" id="faqSearchCount" role="status" aria-live="polite"></p>
+            <button type="button" class="text-link finder-all" id="faqShowAll" data-i18n="finder_all">Показать все вопросы ↗</button>
+          </article>
+        </div>
       </div>
     </section>
 
