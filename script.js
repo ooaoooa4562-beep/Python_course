@@ -1,5 +1,5 @@
 // Replace this username with the course administrator's Telegram username (without @).
-const TELEGRAM_USERNAME = "YOUR_TELEGRAM_USERNAME";
+const TELEGRAM_USERNAME = "Shapka_Durov";
 
 const translations = {
 ru: {
